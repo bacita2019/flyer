@@ -1,0 +1,98 @@
+.container {
+	font-family: "Arsenal";
+	position: relative;
+	overflow: hidden;
+	color: white;
+    text-shadow: 1px 1px 2px black;
+}
+.overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.5;
+	z-index: -1;
+}
+.top {
+	padding: 0px 20px;
+	text-align: center;
+}
+.container {
+	width: 1070px;
+	margin: 0 auto;
+}
+
+.cta-container {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.cta {
+	text-align: center;
+	float: left;
+	width: 46%;
+	padding: 10px 20px;
+	height: 100px;
+	position: relative;
+}
+
+.cta h3 {
+
+}
+
+.cta.why {
+	width: 100%;
+}
+
+.how-container,
+.costs-container,
+.contact-container {
+	text-align: center;
+	padding: 0px 20px;
+}
+
+.how-container ul {
+	text-align: left;
+}
+h1, h3 {
+	font-family: "Aclonica"
+}
+
+.peeps-img {
+    position: absolute;
+    z-index: -2;
+    transform: scale(0.6) rotate(40deg);
+    left: -1018px;
+	top: 345px;
+}
+
+.peeps-2-img {
+    transform: rotate(-31deg);
+    position: absolute;
+    right: -173px;
+    top: 500px;
+    z-index: -3;
+}
+
+.map-img {
+    height: 100px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 8px;
+    right: -66px;
+    background-color: white;
+    border-radius: 60px;
+    box-shadow: 0px 0px 9px 1px white;
+}
+
+.landscape-img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 717px;
+    z-index: -3;
+}
