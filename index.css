@@ -32,12 +32,12 @@
 }
 
 .cta {
-	text-align: center;
-	float: left;
-	width: 46%;
-	padding: 10px 20px;
-	height: 100px;
-	position: relative;
+    text-align: center;
+    float: left;
+    width: 49%;
+    padding: 10px 0px;
+    height: 100px;
+    position: relative;
 }
 
 .cta h3 {
@@ -66,14 +66,22 @@
 }
 
 h1, h3 {
+	text-decoration: underline;
 	font-family: "Aclonica"
+}
+
+h3 {
+	font-size: 22px;
+}
+
+p, li {
+	font-size: 18px;
 }
 
 h1 {
 	font-size: 50px;
 	margin-bottom: 0px;
 	margin-top: 50px;
-	text-decoration: underline;
 }
 
 .img-2 {
@@ -99,8 +107,9 @@ h1 {
     height: 100px;
     width: 100px;
     position: absolute;
-    top: 8px;
-    right: -66px;
+    top: 237px;
+    right: 50%;
+    transform: translateX(50%);
     background-color: white;
     border-radius: 60px;
     box-shadow: 0px 0px 9px 1px white;
@@ -112,9 +121,4 @@ h1 {
     left: 0px;
     height: 802px;
     z-index: -3;
-}
-
-.rule-container {
-	padding: 0 70px;
-	margin-bottom: 30px;
 }
